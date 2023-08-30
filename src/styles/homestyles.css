@@ -1,0 +1,68 @@
+.Home {
+    height: 90vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('C:\Users\babul\Desktop\React\restaurent_website\src\images\banner.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Headercontainer {
+    margin-left: 30px;
+    width: auto;
+}
+
+.Home .Headercontainer h1 {
+    font-weight: bold;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .Headercontainer p {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+
+.Headercontainer button {
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.Headercontainer button:hover {
+    background-color: lightgreen;
+    color: black;
+    transition: 1s;
+    transform: translateX(5px);
+}
+
+@media only screen and (max-width:600px) {
+    .Home {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Headercontainer {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}

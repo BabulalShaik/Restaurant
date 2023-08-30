@@ -1,0 +1,23 @@
+.logout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Adjust this value to create space below the navbar */
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff9800;
+    color: black;
+  }
+  
